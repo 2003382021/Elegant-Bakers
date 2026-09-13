@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1"name="viewport">
+    <title>Elegant Bakers | Exquisite Cakes for Every Occasion</title>
+    
+<link href="https://cloudflare.com"rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link href="https://googleapis.com"rel="stylesheet">
+    
+    <link href="styles.css"rel="stylesheet">
+</head>
+<body>
+
+
+<div class="top-bar">
+    <div class="top-bar-container">
+        <span><ion-icon name="earth-outline"></ion-icon> Delivering happiness to your doorstep!(Mascan, Makutano, kianjai, nchiru)</span>
+        <div class="top-bar-contact">
+            <span><ion-icon name="call-outline"></ion-icon> +254 705 933 390</span>
+            <span><ion-icon name="mail-outline"></ion-icon> elegantbakers@gmail.com</span>
+        </div>
+    </div>
+</div>
+
+
+
+<header class="main-header">
+    <div class="logo">
+        <span class="logo-icon"><i class="fa fa-birthday-cake"aria-hidden="true"></i></span>
+        <div class="logo-text">
+            Elegant <span>Bakers</span>
+            <small>Baked with Love</small>
+        </div>
+    </div>
+
+    
+    <button class="mobile-menu-trigger"aria-label="Toggle Menu"id="mobileMenuTrigger">
+        <ion-icon name="menu-outline"id="menuToggleIcon"></ion-icon>
+    </button>
+
+    <nav class="nav-container-panel"id="navContainerPanel">
+        <ul class="nav-links">
+            
+            <li style="--stagger-index:1"><a href="#home"class="active">Home</a></li>
+            <li style="--stagger-index:2"><a href="#about">About Us</a></li>
+            <li style="--stagger-index:3"class="dropdown">
+                <a href="#categories"class="dropdown-toggle"id="dropdownToggleBtn">
+                    Cakes <ion-icon name="chevron-down-outline"class="nav-arrow"></ion-icon>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a href="javascript:void(0);"onclick='openOrderModal("Wedding")'>Wedding Cakes</a></li>
+                    <li><a href="javascript:void(0);"onclick='openOrderModal("Birthday")'>Birthday Cakes</a></li>
+                    <li><a href="javascript:void(0);"onclick='openOrderModal("Anniversary")'>Anniversary Cakes</a></li>
+                    <li><a href="javascript:void(0);"onclick='openOrderModal("Custom Cupcake")'>Graduation Cakes</a></li>
+                </ul>
+            </li>
+            <li style="--stagger-index:4"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="header-icons-tray">
+        <div class="cart-icon-wrapper">
+            <a href="javascript:void(0);"aria-label="Cart"><ion-icon name="cart-outline"></ion-icon></a>
+            <span class="cart-count">0</span>
+        </div>
+    </div>
+</header>
+
+
+
+<section class="hero-section"id="home">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1>Delicious Cakes <br>for <span class="highlight">Every Occasion</span></h1>
+            <p>Handcrafted with love using the finest premium ingredients. Order online and get your favorite cakes delivered straight to your doorstep.</p>
+            <div class="hero-buttons">
+                <a href="#cakes"class="btn-shop-now">Shop Now</a>
+                <a href="#custom"class="btn-custom-cake">
+                    <ion-icon name="color-wand-outline"></ion-icon> Custom Cake
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-display">
+    <div class="hero-3d-scene">
+        <div class="hero-image-wrapper">
+            
+            <img alt="Elegant Cake"src="images/first weddig cake.png"style="mix-blend-mode:multiply"class="hero-cake-img">
+        </div>
+        
+        <div class="cake-3d-shadow"></div>
+    </div>
+</div>
+
+    </div>
+</section>
+
+
+<section class="features-ribbon">
+    <div class="features-container">
+        
+        
+<div class="reveal-item feature-card"data-delay="1">            <div class="feature-icon-box">
+                <ion-icon name="bicycle-outline"></ion-icon>
+            </div>
+            <div class="feature-text">
+                <h3>Fast Delivery</h3>
+                <p>Express courier straight to your doorstep.</p>
+            </div>
+        </div>
+
+        
+<div class="reveal-item feature-card"data-delay="2">
+                <div class="feature-icon-box">
+                <ion-icon name="time-outline"></ion-icon>
+            </div>
+            <div class="feature-text">
+                <h3>Freshly Baked</h3>
+                <p>Baked daily with zero artificial preservatives.</p>
+            </div>
+        </div>
+
+        
+<div class="reveal-item feature-card"data-delay="3">
+                <div class="feature-icon-box">
+                <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+            <div class="feature-text">
+                <h3>Premium Quality</h3>
+                <p>Crafted exclusively with top-tier ingredients.</p>
+            </div>
+        </div>
+
+        
+<div class="reveal-item feature-card"data-delay="4">
+                <div class="feature-icon-box">
+                <ion-icon name="card-outline"></ion-icon>
+            </div>
+            <div class="feature-text">
+                <h3>Secure Payment</h3>
+                <p>100% encrypted, safe online checkouts.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="about-section"id="about">
+    <div class="about-container">
+        
+        
+        
+<div class="about-visuals">
+    <div class="carousel-window">
+        
+        <div class="carousel-track">
+            
+            <div class="carousel-slide"><img alt="Cake 1"src="images/red cake.png"style="mix-blend-mode:multiply"></div>
+            <div class="carousel-slide"><img alt="Cake 2"src="images/secod.png"style="mix-blend-mode:multiply"></div>
+            <div class="carousel-slide"><img alt="Cake 3"src="images/first weddig cake.png"style="mix-blend-mode:multiply"></div>
+            <div class="carousel-slide"><img alt="Cake 4"src="images/sweet.png"style="mix-blend-mode:multiply"></div>
+            <div class="carousel-slide"><img alt="Cake 5"src="images/sweetest.png"style="mix-blend-mode:multiply"></div>
+            
+            
+            <div class="carousel-slide"><img alt="Cake 1"src="images/red cake.png"style="mix-blend-mode:multiply"></div>s
+        </div>
+    </div>
+    
+    
+    <div class="experience-badge">
+        <span class="badge-num">5+</span>
+        <span class="badge-text">Years of Crafting Smiles</span>
+    </div>
+</div>
+
+
+        
+        <div class="about-narrative-panel">
+            <small class="reveal-item narrative-subtitle"data-delay="1">Our Heritage</small>
+            <h2 class="reveal-item"data-delay="2">Baking Your Dreams <br>Into <span>Delicious Reality</span></h2>
+            <p class="reveal-item"data-delay="3">Welcome to <strong>Elegant Bakers</strong>, where baking isn’t just a regular job—it’s an art form. Founded with a deep passion for creating unforgettable treats, we specialize in luxury wedding cakes, custom birthday creations, and artisanal everyday desserts.</p>
+            <p>Every creation that leaves our kitchen is mixed from scratch using local, top-tier premium ingredients, ensuring your milestone celebrations taste just as spectacular as they look.</p>
+            
+            
+            <div class="reveal-item about-checklist"data-delay="4">
+                <div class="checklist-item">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span>100% Organic & Fresh Ingredients</span>
+                </div>
+                <div class="checklist-item">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span>Bespoke Handcrafted Custom Layouts</span>
+                </div>
+                <div class="checklist-item">
+                    <ion-icon name="checkmark-circle-outline"></ion-icon>
+                    <span>Timely & Safe Temperature-Controlled Shipping</span>
+                </div>
+            </div>
+
+            <a href="#contact"class="btn-shop-now"style="margin-top:15px">Contact Us</a>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="categories-section"id="categories">
+    <div class="section-title-container">
+        <h2 class="reveal-item"data-delay="1">Shop By <span>Category</span></h2>
+        <p class="reveal-item"data-delay="2">Explore our exquisite collections handcrafted for your memorable milestones.</p>
+    </div>
+
+    
+<div class="categories-grid">
+    <a href="javascript:void(0);"class="reveal-item category-card"data-delay="3"onclick='openOrderModal("Wedding")'>
+        <div class="category-circle-wrapper">
+            <div class="category-circle">
+                <img alt="Wedding Cakes"src="images/secod.png"style="mix-blend-mode:multiply"class="category-img">
+            </div>
+        </div>
+        <h3>Wedding Cakes</h3>
+    </a>
+
+    <a href="javascript:void(0);"class="reveal-item category-card"data-delay="4"onclick='openOrderModal("Birthday")'>
+        <div class="category-circle-wrapper">
+            <div class="category-circle">
+                <img alt="Birthday Cakes"src="images/red cake.png"style="mix-blend-mode:multiply"class="category-img">
+            </div>
+        </div>
+        <h3>Birthday Cakes</h3>
+    </a>
+
+    <a href="javascript:void(0);"class="reveal-item category-card"data-delay="5"onclick='openOrderModal("Anniversary")'>
+        <div class="category-circle-wrapper">
+            <div class="category-circle">
+                <img alt="Anniversary Cakes"src="images/sweet.png"style="mix-blend-mode:multiply"class="category-img">
+            </div>
+        </div>
+        <h3>Anniversary Cakes</h3>
+    </a>
+
+    <a href="javascript:void(0);"class="reveal-item category-card"data-delay="6"onclick='openOrderModal("Graduation")'>
+        <div class="category-circle-wrapper">
+            <div class="category-circle">
+                <img alt="Graduation Cakes"src="images/sweetest.png"style="mix-blend-mode:multiply"class="category-img">
+            </div>
+        </div>
+        <h3>Graduation cakes</h3>
+    </a>
+</div>
+
+
+
+<div class="order-modal-overlay"id="orderModal">
+    <div class="order-modal-card">
+        
+        <div class="modal-header">
+            <h2>Customize Your <span id="modalCakeType">Cake</span></h2>
+            <button class="modal-close-btn"onclick="closeOrderModal()"><ion-icon name="close-outline"></ion-icon></button>
+        </div>
+
+        <form class="modal-body-scroll"id="cakeOrderForm">
+            
+            
+            <div class="form-group">
+                <label class="group-title"><ion-icon name="color-palette-outline"></ion-icon> Select Icing Style Texture</label>
+                <div class="visual-option-grid">
+                    <label class="visual-card-option hard-ice">
+<input type="radio"name="icing"onchange="updateModalPrice()"value="Hard-ice"checked>                        <div class="visual-card-content">
+                            <div class="visual-preview-box">Fondant Shell</div>
+                            <h4>Hard Icing Style</h4>
+                            <p>Sculpted clean fondant layers best for graphics and custom writing scripts.</p>
+                        </div>
+                    </label>
+                    <label class="visual-card-option soft-ice">
+<input type="radio"name="icing"onchange="updateModalPrice()"value="Soft Icing">                        <div class="visual-card-content">
+                            <div class="visual-preview-box light-pink-tag">Soft Shell</div>
+                            <h4>Soft Icing Style</h4>
+                            <p>Traditional fluffy buttercream swirls, super moist and decadent texture.</p>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            
+            
+<div class="form-group">
+    <label class="group-title"><ion-icon name="scale-outline"></ion-icon> Choose Weight Proportion</label>
+    <div class="grid-three-columns radio-tile-grid">
+        
+        <label class="tile-radio-label">
+            <input type="radio"name="weight"onchange="updateModalPrice()"value="1.0kg"data-base="1"checked>
+            <div class="tile-content">
+                <strong>1.0 KG</strong>
+                <span class="price-tag"id="price-1kg">KES 1,800</span>
+                <small>Serves 6-8 guests</small>
+            </div>
+        </label>
+        
+        <label class="tile-radio-label">
+            <input type="radio"name="weight"onchange="updateModalPrice()"value="1.5kg"data-base="1.5">
+            <div class="tile-content">
+                <strong>1.5 KG</strong>
+                <span class="price-tag"id="price-15kg">KES 3,750</span>
+                <small>Serves 10-14 guests</small>
+            </div>
+        </label>
+        
+        <label class="tile-radio-label">
+            <input type="radio"name="weight"onchange="updateModalPrice()"value="2.0kg"data-base="2">
+            <div class="tile-content">
+                <strong>2.0 KG</strong>
+                <span class="price-tag"id="price-2kg">KES 5,000</span>
+                <small>Serves 16-22 guests</small>
+            </div>
+        </label>
+        
+    </div>
+</div>
+
+
+            
+            <div class="form-group">
+                <label class="group-title"for="cakeText"><ion-icon name="create-outline"></ion-icon> Custom Text Written on Cake</label>
+                <input class="neu-input"id="cakeText"placeholder="e.g., Happy Birthday Mom!"required>
+            </div>
+
+            
+            <div class="form-group">
+                <label class="group-title"for="cakeColor"><ion-icon name="color-fill-outline"></ion-icon> Theme Colors Preferences</label>
+                <input class="neu-input"id="cakeColor"placeholder="e.g., Pastel pink base with white roses"required>
+            </div>
+
+            
+            <div class="modal-footer">
+                <button class="btn-shop-now btn-block-submit"type="submit">Send Order via WhatsApp <ion-icon name="logo-whatsapp"style="margin-left:5px;font-size:1.1rem;vertical-align:middle"></ion-icon></button>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+
+
+</section>
+
+
+
+
+<section class="contact-section"id="contact">
+    <div class="section-title-container">
+        <h2>Get In <span>Touch</span></h2>
+        <p>Have questions about a custom design? Reach out and let's plan your dream cake.</p>
+    </div>
+
+    <div class="contact-container">
+        
+        
+        <div class="contact-info-column">
+            
+            
+            <div class="info-details-card">
+                <div class="info-icon-circle">
+                    <ion-icon name="location-outline"></ion-icon>
+                </div>
+                <div class="info-text-box">
+                    <h4>Our Delivery Locations</h4>
+                    <p>Mascan, kianjai, nchiru, Meru Kenya</p>
+                </div>
+            </div>
+
+            
+            <div class="info-details-card">
+                <div class="info-icon-circle">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                </div>
+                <div class="info-text-box">
+                    <h4>Direct Channels</h4>
+                    <p>elegantbakers@gmail.com</p>
+                    <p>+254 705 933 390</p>
+                </div>
+            </div>
+
+            
+            <div class="info-details-card">
+                <div class="info-icon-circle">
+                    <ion-icon name="time-outline"></ion-icon>
+                </div>
+                <div class="info-text-box">
+                    <h4>Baking Hours</h4>
+                    <p>Mon - Sat: 8:00 AM - 7:00 PM</p>
+                    <p>Sunday: 10:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="contact-form-column">
+            <form class="neu-contact-form"id="bakery-form">
+                
+                <div class="form-row-split">
+                    <div class="form-group-item">
+                        <label for="userName">Your Name</label>
+                        <input class="neu-input"id="userName"placeholder="John Doe"required>
+                    </div>
+                    <div class="form-group-item">
+                        <label for="userEmail">Your Email</label>
+                        <input type="email"class="neu-input"id="userEmail"placeholder="john@example.com"required>
+                    </div>
+                </div>
+
+                <div class="form-group-item">
+                    <label for="msgSubject">Subject</label>
+                    <input class="neu-input"id="msgSubject"placeholder="Inquiry about Wedding Cake tasting"required>
+                </div>
+
+                <div class="form-group-item">
+                    <label for="userMessage">Your Message</label>
+                    <textarea class="neu-input text-area-input"id="userMessage"placeholder="Tell us what you have in mind..."required rows="5"></textarea>
+                </div>
+
+                <button class="btn-shop-now contact-submit-btn"type="submit">
+                    Send Message <ion-icon name="paper-plane-outline"style="margin-left:5px;vertical-align:middle"></ion-icon>
+                </button>
+
+            </form>
+        </div>
+
+    </div>
+</section>
+
+
+
+<footer class="premium-footer">
+    <div class="footer-container">
+        
+        
+        <div class="footer-brand-box">
+            <div class="logo">
+                <span class="logo-icon"><i class="fa fa-birthday-cake"></i></span>
+                <div class="logo-text">
+                    Elegant <span>Bakers</span>
+                </div>
+            </div>
+            <p class="footer-desc">Crafting premium, luxurious cakes and sweet milestones with uncompromised taste and artistry since 2021.</p>
+        </div>
+
+        
+        <div class="footer-links-box">
+            <h4>Quick Links</h4>
+            <ul class="footer-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Our Story</a></li>
+                <li><a href="#categories">Cake Catalog</a></li>
+                <li><a href="#contact">Contact Studio</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="footer-socials-box">
+            <h4>Follow Our Journey</h4>
+            <p>Catch up on our weekly cake bakes, frosting tutorials, and seasonal flavors!</p>
+            <div class="social-icons-row">
+                <a href="https://instagram.com"class="social-circle"aria-label="Instagram"target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://facebook.com"class="social-circle"aria-label="Facebook"target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+                <a href="https://pinterest.com"class="social-circle"aria-label="Pinterest"target="_blank">
+                    <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+                <a href="https://wa.me/+254705933390"class="social-circle"aria-label="WhatsApp Chat"target="_blank">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    
+    <div class="footer-bottom-bar">
+        <p>© 2026 Elegant Bakers. All Rights Reserved. Handcrafted with <ion-icon name="heart"class="footer-heart"></ion-icon> in Meru-nchiru, Kenya.</p>
+    </div>
+</footer>
+
+
+    
+     <script src="https://kit.fontawesome.com/089afe5aa7.js"crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"type="module"></script>
+<script src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"nomodule></script>
+    <script src="script.js"></script>
+
+
